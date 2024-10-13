@@ -1,6 +1,5 @@
 import telebot
 import requests
-import xmltodict, json
 from tokens import yandexToken,telegramToken,wetherToken
 
 def getWether(longitude,latitude):

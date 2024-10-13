@@ -1,6 +1,7 @@
 import telebot
 import requests
 from tokens import yandexToken,telegramToken,wetherToken
+import xmltodict, json
 
 def getWether(longitude,latitude):
 	URL = "http://api.weatherapi.com/v1/current.json"	
